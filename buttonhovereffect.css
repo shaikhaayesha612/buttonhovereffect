@@ -1,0 +1,117 @@
+
+body{
+    text-align: center;
+    margin: 100px;
+    background-color: rgb(25, 25, 59);
+}
+
+h1{
+    color: blanchedalmond;
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+}
+
+/* Button Css */
+
+.btn{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: mediumseagreen;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+
+
+/* Slide 1 */
+.btn.btn-slide-1{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-1:hover{
+box-shadow: inset 0 100px 0 0 #303439;
+}
+
+/* Slide 2 */
+.btn.btn-slide-2{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-2:hover{
+box-shadow: inset 0 -100px 0 0 #303439;
+}
+
+/* Slide 3 */
+.btn.btn-slide-3{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-3:hover{
+box-shadow: inset 200px 0 0 0 #303439;
+}
+/* Slide 4 */
+.btn.btn-slide-4{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-4:hover{
+box-shadow: inset -200px 0 0 0 #303439;
+}
+
+/* Slide 5 */
+.btn.btn-slide-5{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-5:hover{
+box-shadow: inset 0 0 0 50px #303439;
+}
+
+/* Slide 6 */
+.btn.btn-slide-6{
+background: mediumseagreen;
+box-shadow: inset 0 0 0 50px mediumseagreen;
+}
+.btn.btn-slide-6:hover{
+box-shadow: inset 0 0 0 0 #303439;
+}
+
+/* Slide 7 */
+.btn.btn-slide-7{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-7:hover{
+box-shadow: inset 200px 50px 0 0 #303439;
+}
+
+/* Slide 8 */
+.btn.btn-slide-8{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-8:hover{
+box-shadow: inset -200px -50px 0 0 #303439;
+}
+
+/* Slide 9 */
+.btn.btn-slide-9{
+box-shadow: inset 0 0 0 0 #303439;
+}
+.btn.btn-slide-9:hover{
+box-shadow: inset 0 0 200px 0 #303439;
+}
+
+/* Slide 10 */
+.btn.btn-slide-10{
+background: #303439;
+box-shadow: inset 0 0 200px 0 mediumseagreen;
+}
+.btn.btn-slide-10:hover{
+box-shadow: inset 0 0 0 0 mediumseagreen;
+}
+
